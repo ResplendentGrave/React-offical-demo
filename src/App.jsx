@@ -12,7 +12,7 @@ export default class App extends PureComponent {
   const request1 = axios.get("http://httpbin.org/get",{
    params:{
     name:"hu",
-    age:20
+    age:200
    }});
    const request2 = axios({
     url:"http://httpbin.org/post",
